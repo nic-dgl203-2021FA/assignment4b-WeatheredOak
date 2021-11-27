@@ -2,7 +2,7 @@
 @import 'home';
 
 body {
-    background-color: $primary-color;
+    background: $primary-color;
     color: set-text-color($primary-color);
     height: 100vh;
     font-family: "Raleway", sans-serif;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-weight: 500;
+    font-weight: 400;
     font-family: "IM Fell English SC", serif;
 }
 

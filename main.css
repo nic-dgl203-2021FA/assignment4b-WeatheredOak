@@ -21,7 +21,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid set-text-color #272727;
+  border-bottom: 2px solid #fff;
 }
 .home__name--last {
   color: #ff652f;
@@ -29,20 +29,20 @@
 }
 
 body {
-  background-color: #272727;
-  color: set-text-color #272727;
+  background: #272727;
+  color: #fff;
   height: 100vh;
   font-family: "Raleway", sans-serif;
   line-height: 1;
 }
 
 h1, h2, h3 {
-  font-weight: 500;
+  font-weight: 400;
   font-family: "IM Fell English SC", serif;
 }
 
 a {
-  color: set-text-color #272727;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -78,6 +78,6 @@ footer {
   right: 1rem;
   text-align: right;
   padding: 1rem;
-  color: set-text-color #272727;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
