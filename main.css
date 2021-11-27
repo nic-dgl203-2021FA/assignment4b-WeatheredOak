@@ -216,9 +216,15 @@ Modified Date: 26 November, 2021
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.about p {
-  -webkit-margin-after: 2rem;
-          margin-block-end: 2rem;
+.about__bio-image p {
+  margin-bottom: 2rem;
+}
+.about__bio {
+  width: 80%;
+  text-align: center;
+}
+.about__bio .text-secondary {
+  padding-bottom: 1rem;
 }
 
 body {
