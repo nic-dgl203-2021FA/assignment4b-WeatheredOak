@@ -101,6 +101,21 @@ Modified Date: 26 November, 2021
                 color: $secondary-color;
             }
         }
-    }
+        
+        &__link {
+            display: inline-block;
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding: 2rem 0;
+            font-weight: 300;
+            @include transition-ease;
 
+
+            &:hover {
+                color: $secondary-color;
+            }
+
+        }
+    
+    }
 }
