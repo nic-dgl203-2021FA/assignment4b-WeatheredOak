@@ -63,7 +63,7 @@ Modified Date: 26 November, 2021
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.menu-btn_burger {
+.menu-btn__burger {
   position: absolute;
   right: 0;
   top: 0.5rem;
@@ -73,7 +73,7 @@ Modified Date: 26 November, 2021
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.menu-btn_burger::before {
+.menu-btn__burger::before {
   content: "";
   position: absolute;
   top: -8px;
@@ -83,7 +83,7 @@ Modified Date: 26 November, 2021
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.menu-btn_burger::after {
+.menu-btn__burger::after {
   content: "";
   position: absolute;
   top: 8px;
@@ -93,14 +93,59 @@ Modified Date: 26 November, 2021
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.menu-btn_burger.open {
+.menu-btn__burger.open {
   -webkit-transform: rotate(720deg);
           transform: rotate(720deg);
   background: transparent;
 }
-.menu-btn_burger.open::before {
+.menu-btn__burger.open::before {
   -webkit-transform: rotate(45deg) translate(5px, 8px);
           transform: rotate(45deg) translate(5px, 8px);
+}
+.menu-btn__burger.open::after {
+  width: 28px;
+  -webkit-transform: rotate(-45deg) translate(3px, -7px);
+          transform: rotate(-45deg) translate(3px, -7px);
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  opacity: 0.98;
+  visibility: hidden;
+}
+.nav.open {
+  visibility: visible;
+}
+.nav .menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background: #272727;
+  list-style-type: none;
+  padding-right: 1rem;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.nav .menu-nav.open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 body {
