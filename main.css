@@ -160,6 +160,18 @@ Modified Date: 26 November, 2021
 .nav .menu-nav__item.active > a {
   color: #ff652f;
 }
+.nav .menu-nav__link {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.nav .menu-nav__link:hover {
+  color: #ff652f;
+}
 
 body {
   background: #272727;
