@@ -1,3 +1,15 @@
+/*
+NIC DGL 203
+Assignment 4B
+Student: Will Lewthwaite
+Modified Date: 26 November, 2021
+*/
+/*
+NIC DGL 203
+Assignment 4B
+Student: Will Lewthwaite
+Modified Date: 26 November, 2021
+*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,6 +17,12 @@
   padding: 0;
 }
 
+/*
+NIC DGL 203
+Assignment 4B
+Student: Will Lewthwaite
+Modified Date: 26 November, 2021
+*/
 .home {
   height: 100%;
   padding-top: 40vh;
@@ -28,6 +46,12 @@
   font-weight: 700;
 }
 
+/*
+NIC DGL 203
+Assignment 4B
+Student: Will Lewthwaite
+Modified Date: 26 November, 2021
+*/
 .menu-btn {
   position: absolute;
   z-index: 1;
@@ -44,6 +68,26 @@
   right: 0;
   top: 0.5rem;
   width: 28px;
+  height: 3px;
+  background: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn_burger::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  width: 28px;
+  height: 3px;
+  background: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn_burger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  width: 20px;
   height: 3px;
   background: #fff;
   -webkit-transition: all 0.5s ease-in-out;
