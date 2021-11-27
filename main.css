@@ -253,7 +253,7 @@ Modified Date: 26 November, 2021
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.about .footer {
+.about footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
