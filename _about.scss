@@ -30,4 +30,18 @@
             padding-bottom: 1rem;
         }
     }
+
+    .jobs {
+        width: 60vw;
+        margin: 2rem auto 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        &__job {
+            background: lighten($primary-color, 10%);
+            padding: 0.5rem;
+            border-bottom: 5px solid $secondary-color;
+        }
+    }
 }
