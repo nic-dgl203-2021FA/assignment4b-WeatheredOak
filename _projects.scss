@@ -59,7 +59,7 @@ Modified Date: 29 November, 2021
             @include transition-ease;
         }
 
-        &::hover {
+        &:hover {
             &::after {
                 top: 0;
                 opacity: 0.9;
