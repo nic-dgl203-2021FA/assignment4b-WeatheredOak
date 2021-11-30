@@ -450,6 +450,23 @@ Modified Date: 29 November, 2021
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 1024px) {
+  .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .text-secondary {
+    font-size: 3rem;
+  }
+
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects__bio-image {
+    height: 50vh;
+  }
+}
 body {
   background: #272727;
   color: #fff;
