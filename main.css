@@ -348,9 +348,7 @@ Modified Date: 29 November, 2021
 }
 .projects__btn {
   opacity: 0;
-  -webkit-column-rule: #000;
-     -moz-column-rule: #000;
-          column-rule: #000;
+  color: #000;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
