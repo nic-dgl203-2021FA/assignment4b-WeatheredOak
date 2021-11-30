@@ -44,3 +44,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@include media-lg {
+    .projects {
+        &__items {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .text-secondary {
+            font-size: 3rem;
+        }
+    }
+}
