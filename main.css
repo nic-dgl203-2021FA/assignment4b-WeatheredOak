@@ -403,6 +403,10 @@ Modified Date: 29 November, 2021
   grid-gap: 2rem;
   font-size: 1.5rem;
 }
+.contact .social-icons {
+  position: initial;
+  margin-top: 2rem;
+}
 
 body {
   background: #272727;
