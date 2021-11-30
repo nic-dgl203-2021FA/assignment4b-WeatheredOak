@@ -431,6 +431,10 @@ Modified Date: 29 November, 2021
   .nav .menu-nav__linnk {
     font-size: 1.3rem;
   }
+
+  .about__bio {
+    font-size: 1.5rem;
+  }
 }
 body {
   background: #272727;
