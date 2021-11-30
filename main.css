@@ -318,6 +318,7 @@ Modified Date: 29 November, 2021
   position: absolute;
   top: 100%;
   left: 0;
+  height: 100%;
   width: 100%;
   background: #ff652f;
   opacity: 0;
