@@ -435,6 +435,16 @@ Modified Date: 29 November, 2021
   .about__bio {
     font-size: 1.5rem;
   }
+
+  .projects__bio-image {
+    height: 40vh;
+  }
+  .projects__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects .text-secondary {
+    font-size: 3rem;
+  }
 }
 body {
   background: #272727;
